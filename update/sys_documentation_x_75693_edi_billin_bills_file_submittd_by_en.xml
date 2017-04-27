@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="client" label="Client" language="en" table="x_75693_edi_billin_bills">
+    <sys_documentation element="file_submittd_by" label="File Submittd by" language="en" table="x_75693_edi_billin_bills">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>client</element>
+            <element>file_submittd_by</element>
             <help/>
             <hint/>
-            <label>Client</label>
+            <label>File Submittd by</label>
             <language>en</language>
             <name>x_75693_edi_billin_bills</name>
-            <plural>Clients</plural>
+            <plural>File Submittd by</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-27 00:02:10</sys_created_on>
+            <sys_created_on>2017-04-27 00:32:32</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
-            <sys_id>3ad5f1f6db1232004c277bedbf9619d7</sys_id>
+            <sys_id>23ccb1fadb1232004c277bedbf96192e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Client</sys_name>
+            <sys_name>File Submittd by</sys_name>
             <sys_package display_value="EDI Billing" source="x_75693_edi_billin">deb27d32db1232004c277bedbf96196c</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="EDI Billing">deb27d32db1232004c277bedbf96196c</sys_scope>
-            <sys_update_name>sys_documentation_x_75693_edi_billin_bills_client_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_75693_edi_billin_bills_file_submittd_by_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-27 00:02:10</sys_updated_on>
+            <sys_updated_on>2017-04-27 00:32:32</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

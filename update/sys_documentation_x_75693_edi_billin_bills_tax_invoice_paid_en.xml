@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="" label="657439b6db1232004c277bedbf9619f7" language="en" table="x_75693_edi_billin_657439b6db1232004c277bedbf9619f7">
+    <sys_documentation element="tax_invoice_paid" label="Tax Invoice Paid" language="en" table="x_75693_edi_billin_bills">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>tax_invoice_paid</element>
             <help/>
             <hint/>
-            <label>657439b6db1232004c277bedbf9619f7</label>
+            <label>Tax Invoice Paid</label>
             <language>en</language>
-            <name>x_75693_edi_billin_657439b6db1232004c277bedbf9619f7</name>
-            <plural>657439b6db1232004c277bedbf9619f7s</plural>
+            <name>x_75693_edi_billin_bills</name>
+            <plural>Tax Invoice Paids</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-27 00:02:05</sys_created_on>
+            <sys_created_on>2017-04-27 00:32:32</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
-            <sys_id>61d5f1f6db1232004c277bedbf961922</sys_id>
+            <sys_id>6fccb1fadb1232004c277bedbf96192c</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>657439b6db1232004c277bedbf9619f7</sys_name>
+            <sys_name>Tax Invoice Paid</sys_name>
             <sys_package display_value="EDI Billing" source="x_75693_edi_billin">deb27d32db1232004c277bedbf96196c</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="EDI Billing">deb27d32db1232004c277bedbf96196c</sys_scope>
-            <sys_update_name>sys_documentation_x_75693_edi_billin_657439b6db1232004c277bedbf9619f7__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_75693_edi_billin_bills_tax_invoice_paid_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-27 00:02:05</sys_updated_on>
+            <sys_updated_on>2017-04-27 00:32:32</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

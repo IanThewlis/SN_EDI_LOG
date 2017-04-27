@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element attributes="live_feed=true" label="Bills" max_length="40" name="x_75693_edi_billin_bills" type="collection">
-        <element label="Client" max_length="100" name="client" reference="x_75693_edi_billin_657439b6db1232004c277bedbf9619f7" type="string"/>
         <element label="ELB File Name" max_length="100" name="elb_file_name" type="string"/>
         <element label="EPF File Name" max_length="100" name="epf_file_name" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" display="true" label="Status" max_length="20" name="status" type="choice">
+        <element choice="1" display="true" label="File Submittd by" max_length="40" name="file_submittd_by" reference="sys_user" type="reference">
             <choice/>
         </element>
-        <element label="Supplier" max_length="100" name="supplier" reference="x_75693_edi_billin_suppliers" type="string"/>
+        <element label="Invoice Paid by" max_length="40" name="invoice_paid_by" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Run through F-MIT by" max_length="40" name="run_through_f_mit_by" reference="sys_user" type="reference"/>
+        <element label="Run through InfoLCM by" max_length="40" name="run_through_infolcm_by" reference="sys_user" type="reference"/>
+        <element choice="1" label="Status" max_length="20" name="status" type="choice">
+            <choice>
+                <element label="Received from Supplier" sequence="100" value="1"/>
+                <element label="Processed through F-MIT" sequence="200" value="2"/>
+                <element label="Processed through InfoLCM" sequence="300" value="3"/>
+                <element label="Loaded to UBM" sequence="400" value="4"/>
+                <element label="Validation Completed" sequence="500" value="5"/>
+            </choice>
+        </element>
+        <element label="Supplier" max_length="100" name="supplier" reference="x_75693_edi_billin_suppliers" type="reference"/>
         <element label="Supplier File Name" max_length="100" name="supplier_file_name" type="string"/>
         <element label="TAX File name" max_length="100" name="tax_file_name" type="string"/>
+        <element label="Tax Invoice Paid" max_length="40" name="tax_invoice_paid" type="boolean"/>
         <element label="Total Amount To Pay" max_length="10" name="total_amount_to_pay" type="currency"/>
     </element>
 </database>
