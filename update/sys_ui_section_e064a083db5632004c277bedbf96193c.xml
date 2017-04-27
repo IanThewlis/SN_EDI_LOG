@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_section caption="" section_id="fdd6bdf6db1232004c277bedbf961923" sys_domain="global" table="x_75693_edi_billin_bills" version="3" view="">
+    <sys_ui_section caption="Payment Info" section_id="e064a083db5632004c277bedbf96193c" sys_domain="global" table="x_75693_edi_billin_bills" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>tax_file_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-27 14:26:49</sys_created_on>
-            <sys_id>24cbf00fdb5632004c277bedbf9619a0</sys_id>
+            <sys_created_on>2017-04-27 12:44:42</sys_created_on>
+            <sys_id>ac64a083db5632004c277bedbf961956</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_75693_edi_billin_bills" sys_domain="global" view="Default view">fdd6bdf6db1232004c277bedbf961923</sys_ui_section>
+            <sys_ui_section caption="Payment Info" display_value="Payment Info" name="x_75693_edi_billin_bills" sys_domain="global" view="Default view">e064a083db5632004c277bedbf96193c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-27 14:26:49</sys_updated_on>
+            <sys_updated_on>2017-04-27 12:44:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to_group</element>
+            <element>total_amount_to_pay</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-27 14:26:49</sys_created_on>
-            <sys_id>a4cbf00fdb5632004c277bedbf9619a0</sys_id>
+            <sys_created_on>2017-04-27 12:44:42</sys_created_on>
+            <sys_id>2064a083db5632004c277bedbf961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_75693_edi_billin_bills" sys_domain="global" view="Default view">fdd6bdf6db1232004c277bedbf961923</sys_ui_section>
+            <sys_ui_section caption="Payment Info" display_value="Payment Info" name="x_75693_edi_billin_bills" sys_domain="global" view="Default view">e064a083db5632004c277bedbf96193c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-27 14:26:49</sys_updated_on>
+            <sys_updated_on>2017-04-27 12:44:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,68 +33,68 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-27 14:26:49</sys_created_on>
-            <sys_id>28cbf00fdb5632004c277bedbf9619a0</sys_id>
+            <sys_created_on>2017-04-27 12:44:42</sys_created_on>
+            <sys_id>a064a083db5632004c277bedbf961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_75693_edi_billin_bills" sys_domain="global" view="Default view">fdd6bdf6db1232004c277bedbf961923</sys_ui_section>
+            <sys_ui_section caption="Payment Info" display_value="Payment Info" name="x_75693_edi_billin_bills" sys_domain="global" view="Default view">e064a083db5632004c277bedbf96193c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-27 14:26:49</sys_updated_on>
+            <sys_updated_on>2017-04-27 12:44:42</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
+            <element>tax_invoice_paid</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-27 14:26:49</sys_created_on>
-            <sys_id>a8cbf00fdb5632004c277bedbf9619a0</sys_id>
+            <sys_created_on>2017-04-27 12:44:42</sys_created_on>
+            <sys_id>2464a083db5632004c277bedbf961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_75693_edi_billin_bills" sys_domain="global" view="Default view">fdd6bdf6db1232004c277bedbf961923</sys_ui_section>
+            <sys_ui_section caption="Payment Info" display_value="Payment Info" name="x_75693_edi_billin_bills" sys_domain="global" view="Default view">e064a083db5632004c277bedbf96193c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-27 14:26:49</sys_updated_on>
+            <sys_updated_on>2017-04-27 12:44:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
+            <element>invoice_paid_by</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-27 14:26:49</sys_created_on>
-            <sys_id>2ccbf00fdb5632004c277bedbf9619a0</sys_id>
+            <sys_created_on>2017-04-27 12:44:42</sys_created_on>
+            <sys_id>a464a083db5632004c277bedbf961957</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_75693_edi_billin_bills" sys_domain="global" view="Default view">fdd6bdf6db1232004c277bedbf961923</sys_ui_section>
+            <sys_ui_section caption="Payment Info" display_value="Payment Info" name="x_75693_edi_billin_bills" sys_domain="global" view="Default view">e064a083db5632004c277bedbf96193c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-27 14:26:49</sys_updated_on>
+            <sys_updated_on>2017-04-27 12:44:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>Payment Info</caption>
             <header>false</header>
             <name>x_75693_edi_billin_bills</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-27 00:06:28</sys_created_on>
+            <sys_created_on>2017-04-27 12:44:41</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fdd6bdf6db1232004c277bedbf961923</sys_id>
+            <sys_id>e064a083db5632004c277bedbf96193c</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_75693_edi_billin_bills</sys_name>
+            <sys_name>Payment Info</sys_name>
             <sys_overrides/>
             <sys_package display_value="EDI Billing" source="x_75693_edi_billin">deb27d32db1232004c277bedbf96196c</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="EDI Billing">deb27d32db1232004c277bedbf96196c</sys_scope>
-            <sys_update_name>sys_ui_section_fdd6bdf6db1232004c277bedbf961923</sys_update_name>
+            <sys_update_name>sys_ui_section_e064a083db5632004c277bedbf96193c</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-27 00:06:28</sys_updated_on>
+            <sys_updated_on>2017-04-27 12:44:41</sys_updated_on>
             <sys_user/>
-            <title>true</title>
+            <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>

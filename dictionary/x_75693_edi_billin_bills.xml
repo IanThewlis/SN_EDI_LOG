@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element attributes="live_feed=true" label="Bills" max_length="40" name="x_75693_edi_billin_bills" type="collection">
+        <element display="true" label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assigned to Group" max_length="32" name="assigned_to_group" reference="sys_user_group" type="reference"/>
+        <element label="Client" max_length="32" name="client" reference="x_75693_edi_billin_client" type="reference"/>
         <element label="ELB File Name" max_length="100" name="elb_file_name" type="string"/>
         <element label="EPF File Name" max_length="100" name="epf_file_name" type="string"/>
-        <element choice="1" display="true" label="File Submittd by" max_length="40" name="file_submittd_by" reference="sys_user" type="reference">
+        <element choice="1" label="File Submittd by" max_length="40" name="file_submittd_by" reference="sys_user" type="reference">
             <choice/>
         </element>
         <element label="Invoice Paid by" max_length="40" name="invoice_paid_by" reference="sys_user" type="reference"/>
@@ -24,5 +27,14 @@
         <element label="TAX File name" max_length="100" name="tax_file_name" type="string"/>
         <element label="Tax Invoice Paid" max_length="40" name="tax_invoice_paid" type="boolean"/>
         <element label="Total Amount To Pay" max_length="10" name="total_amount_to_pay" type="currency"/>
+        <index name="index">
+            <element name="client"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to_group"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
     </element>
 </database>

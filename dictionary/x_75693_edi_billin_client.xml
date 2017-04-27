@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Client" max_length="40" name="x_75693_edi_billin_client" type="collection">
-        <element label="Client name" max_length="100" name="client_name" type="string"/>
+        <element display="true" label="Client name" max_length="100" name="client_name" type="string"/>
     </element>
 </database>
